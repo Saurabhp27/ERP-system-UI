@@ -1,0 +1,67 @@
+
+h1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#nav{
+  background-image: -moz-radial-gradient();
+}
+.content {
+    margin-left: 200px;
+    padding: 20px;
+  }
+
+  
+  
+  .dashboard-summary {
+    background-color:rgb(237, 231, 231);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-image: -webkit-image-set();
+  }
+  
+  .metrics {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  
+  .metric {
+    text-align: center;
+    flex: 1;
+  }
+  
+  h2 {
+    color: #333;
+    font-size: 18px;
+  }
+  
+  p {
+    color: #555;
+    font-size: 16px;
+  }
+  
+  .navigation-links {
+    display: flex;
+    flex-direction: column; /* Display buttons in a column */
+    align-items: center; /* Center buttons horizontally */
+  }
+  
+  .navigation-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-top: 10px; /* Add margin to separate buttons vertically */
+    text-align: left;
+  }
+  
+  .navigation-button:hover {
+    background-color: #0056b3;
+  }
+  
